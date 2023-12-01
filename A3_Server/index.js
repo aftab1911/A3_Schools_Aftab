@@ -31,9 +31,7 @@ mongoose.connect(uri,{
 app.get('/',(req,res)=>{
     res.json("Hello");
 })
-app.get('/',(req,res)=>{
-    res.json("Hello");
-})
+
 app.post('/login',(req,res)=>{
     const {email,password}=req.body;
     UserModel.findOne({email:email})
