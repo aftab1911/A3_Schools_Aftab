@@ -64,7 +64,7 @@ const Signup = () => {
         e.preventDefault();
         if (validateForm()) {
           try {
-            const result = await axios.post('https://a3-schools-front-back.vercel.app/register', { name, email, password });
+            const result = await axios.post('https://a3-schools-aftab-api.vercel.app/register', { name, email, password });
             console.log(result);
             // Wait for the showRegSuccessToast to complete before navigating
             await showRegSuccessToast();
