@@ -1,0 +1,14 @@
+.pos{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    padding-top: 0% !important;
+    margin-top: 0 !important;
+}
+.form-control:focus{
+    border-color: var(--success) !important;
+    box-shadow: 0 0 0 0.1rem var(--success) !important;
+}
+.dropdown-link:hover{
+    box-shadow: 0 0 0 0.1rem var(--success) !important;
+}
