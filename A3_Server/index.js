@@ -21,7 +21,8 @@ app.use(cors(
 //   }).then(()=>console.log(`Database connect ho gya`))
 //   .catch(()=>console.log(`Tumse na ho payega`));
 
-const uri = "mongodb+srv://diksha:diksha@cluster0.ozdz3di.mongodb.net/A3Schools?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://diksha:diksha@cluster0.ozdz3di.mongodb.net/A3Schools?retryWrites=true&w=majority";
+const uri = "mongodb+srv://diksha:diksha@cluster0.ozdz3di.mongodb.net/A3Schools";
 mongoose.connect(uri,{
   useNewUrlParser:true,
   useUnifiedTopology:true
