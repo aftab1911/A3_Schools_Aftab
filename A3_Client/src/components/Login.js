@@ -49,7 +49,7 @@ const Login = () => {
     const handleSubmit=async (e)=>{
         e.preventDefault();
         try{
-            const result=await axios.post('https://a3-schools-front-back.vercel.app/login',{email,password});
+            const result=await axios.post('https://a3-schools-aftab-api.vercel.app/login',{email,password});
             console.log(result);
             if(result.data==="Success"){
                 await showLoginSuccessToast();
